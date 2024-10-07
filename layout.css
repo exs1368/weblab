@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+    background-color: #f0f8ff;
+}
+
+header {
+    background-image : url("https://www.seekpng.com/png/detail/30-304799_mickey-mouse-ears-vector-mickey-hat-clip-art.png");
+    width : 960px;
+    background-size : cover;
+    background-position : center;
+    height : 200px;
+    padding : 20px;
+    border :red solid 5px;
+    margin : -8px auto 50px;
+}
+
+main {
+    background-color: lightsteelblue;
+    width: 970px;
+    padding: 20px;
+    margin: 0 auto 50px;
+}
+
+footer {
+    background-color: maroon;
+    width: 970px;
+    height: 100px;
+    padding: 20px;
+    border-top: 10px dotted white;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    color: #e60000; /* Mickey's red */
+    padding: 10px;
+}
+
+h2 {
+    color: maroon;
+    opacity: 0.85; /*new css property */
+    text-align: right;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h3{
+    color: maroon;
+    text-align: left;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h4{
+    color: black;
+    text-align: left;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #333; /* Dark gray for readability */
+    line-height: 1.5;
+    font-size: 16px; /* Styled paragraph */
+}
+
+li {
+    font-weight: bold;
+   background-color: maroon;
+}
+
+ul {
+    background-color:maroon;
+}
+
+ol {
+    background-color:maroon;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+}
+
+ol li {
+    color: white;
+    font-weight: lighter;
+    list-style: lower-roman;
+}
+
+nav{
+    background-color: transparent;
+    width: 300px;
+    padding: 5px;
+
+}
+
+nav a{
+    font-size: 20px;
+    color: red;
+    margin-right: 30px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;/* Lighter weight for links */
+    font-style: normal;
+}
+
+nav a:hover{
+text-decoration: none;
+color: black;
+}
+
+/* Classes for additional styling */
+
+.underline{
+    text-decoration: underline;
+}
+
+.centerImage{
+    width: 960px;
+    margin:  0 auto;
+    border: red solid 5px
+}
+
+.imageGallery {
+    width: 250px;
+    border: 10px solid white;
+    margin: 10px;
+    border-radius: 15px; /* New CSS property: border-radius */
+}
